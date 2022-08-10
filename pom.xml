@@ -64,6 +64,16 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+
+        <repository>
+            <id>teamvk-repo</id>
+            <url>https://raw.githubusercontent.com/TeamVK/maven-repository/master/release/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -75,11 +85,43 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- JetsPrisonMines -->
+        <dependency>
+            <groupId>org.jet315</groupId>
+            <artifactId>JetsPrisonMines</artifactId>
+            <version>4.4.4</version>
+            <systemPath>${basedir}/libs/JetsPrisonMines-4.4.4.jar</systemPath>
+            <scope>system</scope>
+        </dependency>
+
+        <!-- VaultAPI -->
+        <dependency>
+            <groupId>com.github.MilkBowl</groupId>
+            <artifactId>VaultAPI</artifactId>
+            <version>1.7</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- TokenEnchantAPI -->
+        <dependency>
+            <groupId>com.vk2gpz.tokenenchant</groupId>
+            <artifactId>TokenEnchantAPI</artifactId>
+            <version>18.37.1</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
+        </dependency>
+
+        <!-- JetBrains -->
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>23.0.0</version>
         </dependency>
     </dependencies>
 </project>

@@ -1,0 +1,11 @@
+no-console: "&c&l» ERRORE &fQuesto comando non è eseguibile da console."
+no-permission: "&c&l» ERRORE &fNon hai il permesso per eseguire questo comando."
+no-subcommand: "&c&l» ERRORE &fQuesto subcommand non sembra essere registrato."
+no-correct-usage: "&c&l» ERRORE &fUsa: %command_usage%."
+
+no-block-in-hand: "&c&l» ERRORE &fDevi avere un blocco in mano per usare il comando."
+block-is-already-in-shop: "&c&l» ERRORE &fQuesto blocco è già all'interno dello shop."
+block-not-is-in-shop: "&c&l» ERRORE &fQuesto blocco non è all'interno dello shop."
+
+add-block-in-shop: "&a&l» SELL &fHai aggiunto con successo &a%block% &fallo shop."
+remove-block-in-shop: "&a&l» SELL &fHai rimosso con successo &a%block% &fdallo shop."

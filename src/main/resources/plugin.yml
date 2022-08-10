@@ -2,3 +2,10 @@ name: TimeSell
 version: '${project.version}'
 main: me.imjaxs.elyscube.timesell.TimeSell
 authors: [ ImJaxs ]
+depend:
+  - JetsPrisonMines
+  - Vault
+  - TokenEnchant
+commands:
+  timesell:
+    description: //
