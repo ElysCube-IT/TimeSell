@@ -1,0 +1,9 @@
+permission-multipliers:
+  'example_name':
+    priority: 1
+    permission: 'example.permission'
+    multiplier: 2.0
+  'example_name_1':
+    priority: 2
+    permission: 'example.permission.1'
+    multiplier: 1.0
